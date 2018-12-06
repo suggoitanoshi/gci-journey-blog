@@ -1,0 +1,5 @@
+name: String
+location: String
+languages: Language[]
+platform: GitPlatform
+ci: CI[]

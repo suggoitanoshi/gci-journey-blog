@@ -1,0 +1,6 @@
+name: String
+difficulty: Difficulty -> tasks
+type: TaskType[]
+repository: Repository
+pr-id: String
+mentors: Mentor[]
