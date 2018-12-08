@@ -21,3 +21,26 @@
   border-radius: .1rem;
   margin-top: 1rem;
 }
+
+.difficulty{
+  display: inline-block;
+  padding: 0 .25rem;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  background-color: var(--background-color);
+}
+
+.difficulty-b{
+  --background-color: rgb(49, 175, 246);
+  --border-color: rgb(6, 144, 222);
+}
+
+.difficulty-l{
+  --background-color: rgb(33, 251, 100);
+  --border-color: rgb(15, 187, 68);
+}
+
+.difficulty-m{
+  --background-color: rgb(254, 136, 28);
+  --border-color: rgb(187, 94, 9);
+}
