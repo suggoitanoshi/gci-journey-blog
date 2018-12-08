@@ -1,0 +1,8 @@
+name: coala-documentation
+location: coala/documentation
+languages:
+  - python
+platform: GitHub
+ci:
+  - Travis
+  - GitMate

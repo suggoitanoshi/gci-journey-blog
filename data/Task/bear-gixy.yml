@@ -1,0 +1,8 @@
+name: "bears: Issue #1724: Bear proposal: Gixy (nginx config static analyzer)"
+repository: coala-bears
+type:
+  - code
+difficulty: low
+pr-id: 2754
+mentors:
+  - jayvdb

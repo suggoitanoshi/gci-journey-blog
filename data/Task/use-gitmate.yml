@@ -1,0 +1,9 @@
+name: Use GitMate CI
+difficulty: beginner
+type:
+  - design
+  - documentation
+repository: gitmate-example
+pr-id: 6
+mentors:
+  - vamshi99

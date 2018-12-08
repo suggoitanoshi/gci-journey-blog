@@ -1,0 +1,7 @@
+name: "coast: Issue #6: Add styling to the site"
+difficulty: medium
+type:
+  - code
+repository: coast
+mentors:
+  - jayvdb

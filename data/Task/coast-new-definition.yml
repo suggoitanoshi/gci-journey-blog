@@ -1,0 +1,9 @@
+name: "coAST: Add a new language definition, from coalib"
+repository: coast
+type:
+  - code
+  - documentation
+pr-id: 10
+mentors:
+  - man-jain
+  - jayvdb

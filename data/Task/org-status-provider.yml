@@ -1,0 +1,11 @@
+name: >
+  org-status: Issue #17: Make it possible to mix and match org hosts and status
+  providers
+difficulty: medium
+type:
+  - code
+repository: org-status
+pr-id: 38
+mentors:
+  - ksdme
+  - kx-chen

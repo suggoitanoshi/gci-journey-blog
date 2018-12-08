@@ -1,0 +1,9 @@
+name: >
+  username-availability: Issue #104: unify frontend and backend server files
+difficulty: medium
+type:
+  - code
+repository: username-checker
+pr-id: 129
+mentors:
+  - andrewda

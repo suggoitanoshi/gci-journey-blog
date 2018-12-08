@@ -1,0 +1,8 @@
+name: coAST
+location: coala/coAST
+languages:
+  - html
+  - css
+platform: GitHub
+ci:
+  - GitMate

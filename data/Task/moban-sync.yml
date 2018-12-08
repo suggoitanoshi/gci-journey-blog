@@ -1,0 +1,10 @@
+name: "It's moban repo sync time!"
+repository: coala-doc
+type:
+  - code
+  - qa
+pr-id: 577
+mentors:
+  - naveen
+  - jayvdb
+  - ayan-b

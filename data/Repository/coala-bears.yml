@@ -1,0 +1,7 @@
+name: coala-bears
+location: coala/coala-bears
+languages:
+  - python
+platform: GitHub
+ci:
+  - Travis

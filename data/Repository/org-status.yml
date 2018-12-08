@@ -1,0 +1,7 @@
+name: org-status
+location: ksdme/org-status
+languages:
+  - python
+platform: GitHub
+ci:
+  - Travis

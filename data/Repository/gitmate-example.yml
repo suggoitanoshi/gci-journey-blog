@@ -1,0 +1,5 @@
+name: gitmate-example-setup
+location: vex8/example-setup
+platform: GitLab
+ci:
+  - GitMate

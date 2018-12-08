@@ -1,0 +1,10 @@
+name: username-availability-checker
+location: manu-chroma/username-availability-checker
+languages:
+  - python
+  - html
+  - css
+  - js
+platform: GitHub
+ci:
+  - Travis
