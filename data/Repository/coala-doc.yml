@@ -1,7 +1,7 @@
 name: coala-documentation
 location: coala/documentation
 languages:
-  - python
+  - rst
 platform: GitHub
 ci:
   - Travis
