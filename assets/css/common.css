@@ -29,3 +29,10 @@ a:hover{
 a:visited{
   color: rgb(130, 130, 130);
 }
+
+@media screen and (max-width: 720px){
+  main{
+    margin: 2rem .5rem 0;
+    padding: 0;
+  }
+}
