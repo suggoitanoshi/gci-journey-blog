@@ -3,6 +3,7 @@ location: coala/coAST
 languages:
   - html
   - css
+  - yaml
 platform: GitHub
 ci:
   - GitMate
