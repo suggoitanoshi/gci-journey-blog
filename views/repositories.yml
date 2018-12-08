@@ -1,0 +1,7 @@
+path: /repositories/
+template: repos.html.jinja2
+context:
+  static:
+    title: "Repositories I contributed to:"
+  dynamic:
+    repositories: session.query(Repository).all()

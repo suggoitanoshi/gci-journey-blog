@@ -1,0 +1,7 @@
+path: /technologies/
+template: tech.html.jinja2
+context:
+  static:
+    title: "New technologies I learned:"
+  dynamic:
+    technologies: session.query(Technology).all()

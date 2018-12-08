@@ -1,0 +1,5 @@
+path: /
+template: home.html.jinja2
+context:
+  dynamic:
+    posts: session.query(Post).order_by(Post.order.asc()).all()

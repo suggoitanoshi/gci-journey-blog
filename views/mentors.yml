@@ -1,0 +1,7 @@
+path: /mentors/
+template: mentor.html.jinja2
+context:
+  static:
+    title: "Mentors I interacted with:"
+  dynamic:
+    mentors: session.query(Mentor).all()

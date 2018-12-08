@@ -1,0 +1,9 @@
+project-name: GCI Experience
+base-path: /
+context:
+  static:
+    site-title: My GCI Journey
+    me: vex8
+  dynamic:
+    mentors: session.query(Mentor).all()
+    tasks: session.query(Task).all()

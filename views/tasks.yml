@@ -1,0 +1,7 @@
+path: /tasks/
+template: task.html.jinja2
+context:
+  static:
+    title: "Tasks I've completed: "
+  dynamic:
+    tasks: session.query(Task).all()
