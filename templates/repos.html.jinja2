@@ -1,0 +1,27 @@
+{% extends "base.html.jinja2" %}
+
+{% block body %}
+<section id="repositories" class="container">
+  <h2 class="title">{{ title }}</h2>
+  <ul>
+  {% for repo in repositories %}
+  {% set git = repo.platform %}
+    <li><a href="{{ git.url }}{{ repo.location }}">{{ repo.name }}</a>:
+      <br>
+      Language(s):
+      <ul>
+      {% for lang in repo.languages %}
+        <li>{{ lang.name }}</li>
+      {% endfor %}{# for lang in repo.languages #}
+      </ul>
+      Continuous Integration used:
+      <ul>
+        {% for ci in repo.ci %}
+        <li>{{ ci.name }}</li>
+        {% endfor %}{# for ci in repo.ci #}
+      </ul>
+    </li>
+  {% endfor %}{# for repo in repositories #}
+  </ul>
+</section>
+{% endblock %}

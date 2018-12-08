@@ -1,0 +1,23 @@
+:root{  /* Ignore CSSLintBear */
+  --primary-color: rgb(27, 111, 164); /* Ignore CSSLintBear */
+  --secondary-color: rgb(245, 245, 245); /* Ignore CSSLintBear */
+  --text-color: white; /* Ignore CSSLintBear */
+}
+
+.container{
+  background-color: var(--secondary-color);  /* Ignore CSSLintBear */
+  padding: 0 2.5rem 1rem;
+}
+
+.title{
+  --border-radius: .5rem;  /* Ignore CSSLintBear */
+  background-color: var(--primary-color);  /* Ignore CSSLintBear */
+  border-radius: 0 0 var(--border-radius) var(--border-radius);  /* Ignore CSSLintBear */
+  color: var(--text-color);  /* Ignore CSSLintBear */
+  padding: 1rem 2rem;
+}
+
+.post{
+  border-radius: .1rem;
+  margin-top: 1rem;
+}

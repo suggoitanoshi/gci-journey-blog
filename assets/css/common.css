@@ -1,0 +1,31 @@
+body{
+  font-family: "Helvetica Neue","Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header, footer{
+  background-color: var(--primary-color);  /* Ignore CSSLintBear */
+  color: var(--text-color);  /* Ignore CSSLintBear */
+}
+header{
+  padding: 1px 3rem;
+}
+main{
+  margin: 1rem 5rem;
+  padding: 1rem 2.5rem;
+}
+footer{
+  padding: 1rem 3rem;
+  text-align: center;
+}
+
+a{
+  color: rgb(33, 166, 184);
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+a:visited{
+  color: rgb(130, 130, 130);
+}

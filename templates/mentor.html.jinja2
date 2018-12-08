@@ -1,0 +1,19 @@
+{% extends "base.html.jinja2" %}
+
+{% block body %}
+  <section class="container">
+    <h2 class="title">{{ title }}</h2>
+    <ul>
+      {% for mentor in mentors %}
+        <li>
+          {{ mentor.username }}
+          <br>
+          Organizations:
+          {% for org in mentor.organizations %}
+           <a href="{{ org.url }}">{{ org.name }}{{ "," if not loop.last }}</a>
+          {% endfor %}{# for org in mentor.organizations #}
+        </li>
+      {% endfor %}{# for mentor in mentors #}
+    </ul>
+  </section>
+{% endblock %}

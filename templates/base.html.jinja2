@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>{% block title %}{{ site_title }} - {{ me }}{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{% asset "css/common.css" %}">
+    <link rel="stylesheet" href="{% asset "css/base.css" %}">
+  </head>
+  <body>
+    <header>
+      <h1>{{ site_title }} - {{ me }}</h1>
+    </header>
+    <main>
+      <div id="quicklink">
+        <h4>Quick link:</h4>
+        <a href="/">Home</a> -
+        <a href="/repositories/">Repositories I contributed</a> -
+        <a href="/technologies/">New technologies I learned</a> -
+        <a href="/mentors/">Mentors I interacted with</a> -
+        <a href="/tasks/">Tasks I worked on</a>
+      </div>
+    {% block body %}{% endblock %}
+    </main>
+    <footer>
+      vex8
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{% extends "base.html.jinja2" %}
+
+{% block body %}
+  <div class="posts">
+  {% for post in posts %}
+    <article class="post container" id="{{ post.slug }}">
+      <h3 class="title">{{ post.title }}</h3>
+      {{ post.content }}
+    </article>
+  {% endfor %}{# for post in posts #}
+  </div>
+{% endblock %}

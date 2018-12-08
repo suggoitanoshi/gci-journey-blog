@@ -1,0 +1,36 @@
+{% extends "base.html.jinja2" %}
+
+{% block body %}
+<section class="container">
+  <h2 class="title">{{ title }}</h2>
+  <ul>
+    {% for task in tasks %}
+    {% set dif = task.difficulty %}
+      <li>
+        {{ task.name }}
+        <br>
+        Difficulty:
+        <span class="difficulty difficulty-{{ dif.short }}">{{ dif.title }}</span>
+        <br>
+        {% if task.pr_id is not none %}
+          {% set repo = task.repository %}
+          {% set platform = repo.platform %}
+          {% set pr_link = platform.url + repo.location + "/" + platform.pr_path + task.pr_id %}
+          Pull Request: <a href="{{ pr_link }}">#{{ task.pr_id }}</a>
+        {% endif %}{# if task.pr_id is not none #}
+        <br>
+        Mentored by:
+        <ul>
+          {% for mentor in task.mentors %}
+          <li>{{ mentor.username }}</li>
+          {% endfor %}{# for mentor in task.mentors #}
+        </ul>
+        Task type:
+        {% for type in task.type %}
+          <span class="task-{{type.short}}">{{ type.name }}</span>{{ "," if not loop.last }}
+        {% endfor %}{# for type in task.type #}
+      </li>
+    {% endfor %}{# for task in tasks #}
+  </ul>
+</section>
+{% endblock %}

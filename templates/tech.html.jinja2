@@ -1,0 +1,14 @@
+{% extends "base.html.jinja2" %}
+
+{% block body %}
+<section class="container">
+  <h2 class="title">{{ title }}</h2>
+  <ul>
+  {% for tech in technologies %}
+    <li>
+      <a href="{{ tech.homepage }}">{{ tech.name }}</a> - {{ tech.type }}
+    </li>
+  {% endfor %}{# for tech in technologies #}
+  </ul>
+</section>
+{% endblock %}
