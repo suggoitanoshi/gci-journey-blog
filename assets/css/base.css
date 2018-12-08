@@ -23,24 +23,24 @@
 }
 
 .difficulty{
+  background-color: var(--background-color);  /* Ignore CSSLintBear */
+  border: 1px solid var(--border-color);  /* Ignore CSSLintBear */
+  border-radius: 5px;
   display: inline-block;
   padding: 0 .25rem;
-  border-radius: 5px;
-  border: 1px solid var(--border-color);
-  background-color: var(--background-color);
 }
 
-.difficulty-b{
-  --background-color: rgb(49, 175, 246);
-  --border-color: rgb(6, 144, 222);
+.difficulty-b{  /* Ignore CSSLintBear */
+  --background-color: rgb(49, 175, 246);  /* Ignore CSSLintBear */
+  --border-color: rgb(6, 144, 222);  /* Ignore CSSLintBear */
 }
 
-.difficulty-l{
-  --background-color: rgb(33, 251, 100);
-  --border-color: rgb(15, 187, 68);
+.difficulty-l{  /* Ignore CSSLintBear */
+  --background-color: rgb(33, 251, 100);  /* Ignore CSSLintBear */
+  --border-color: rgb(15, 187, 68);  /* Ignore CSSLintBear */
 }
 
-.difficulty-m{
-  --background-color: rgb(254, 136, 28);
-  --border-color: rgb(187, 94, 9);
+.difficulty-m{  /* Ignore CSSLintBear */
+  --background-color: rgb(254, 136, 28);  /* Ignore CSSLintBear */
+  --border-color: rgb(187, 94, 9);  /* Ignore CSSLintBear */
 }

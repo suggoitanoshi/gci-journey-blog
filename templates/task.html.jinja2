@@ -27,7 +27,7 @@
         </ul>
         Task type:
         {% for type in task.type %}
-          <span class="task-{{type.short}}">{{ type.name }}</span>{{ "," if not loop.last }}
+          <span class="task-{{ type.short }}">{{ type.name }}</span>{{ "," if not loop.last }}
         {% endfor %}{# for type in task.type #}
       </li>
     {% endfor %}{# for task in tasks #}
