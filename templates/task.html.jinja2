@@ -17,8 +17,8 @@
           {% set platform = repo.platform %}
           {% set pr_link = platform.url + repo.location + "/" + platform.pr_path + task.pr_id %}
           Pull Request: <a href="{{ pr_link }}">#{{ task.pr_id }}</a>
+          <br>
         {% endif %}{# if task.pr_id is not none #}
-        <br>
         Mentored by:
         <ul>
           {% for mentor in task.mentors %}
